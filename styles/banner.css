@@ -11,7 +11,7 @@
 
 .banner {
     height: 90vh;
-    margin-top: 2em;
+    margin-top: 1em;
     position: relative;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .cursor {
-    border-left: 2px solid #e8940d; /* Cor da barra piscante */
-    animation: blink 0.7s step-end infinite; /* Animação de piscamento */
+    border-left: 2px solid #e8940d;
+    animation: blink 0.7s step-end infinite;
     margin-left: 5px;
 }
 
@@ -41,7 +41,7 @@
 
 .seemore {
     position: absolute;
-    bottom: 5px; 
+    bottom: 2px; 
     left: 50%;
     transform: translateX(-50%); 
     display: flex;

@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", function() {
     // Variáveis do loop
     let loopNum = 0;
     let isDeleting = false;
-    const toRotate = ["meu portifólio"];
+    const toRotate = ["ao meu portfólio"];
     let text = '';
-    let delta = 300 - Math.random() * 100;
-    const period = 2000;
+    let delta = 30 - Math.random() * 10;
+    const period = 800;
     const wrapElement = document.querySelector('.wrap'); // Seleciona o span onde o texto vai aparecer
 
     function tick() {
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else if (isDeleting && text === '') {
             isDeleting = false;
             loopNum++;
-            delta = 100;
+            delta = 80;
         }
 
         setTimeout(tick, delta); // Chama a função novamente após um intervalo
