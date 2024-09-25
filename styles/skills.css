@@ -1,0 +1,30 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    height: 150%;
+}
+
+.skills__title {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.skills__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.skills__image {
+    width: 40%;
+    
+}

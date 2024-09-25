@@ -1,0 +1,55 @@
+
+.container {
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    padding: 2em;
+    padding-top: 8em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.banner {
+    height: 90vh;
+    margin-top: 2em;
+    position: relative;
+}
+
+.banner__image {
+    width: 70%;
+}
+
+.banner__title {
+    font-family: "Source Code Pro", monospace;
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 2em;
+    color: var(--primary);
+}
+
+.seemore {
+    position: absolute;
+    bottom: 5px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+    
+}
+
+.arrow {
+    width: 5%;
+}
+
+.seemore__text {
+    color: black;
+}
+
+.seemore:hover {
+    transform:  translateX(-50%) scale(1.15);
+}

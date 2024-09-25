@@ -1,0 +1,47 @@
+@import url("reset.css");
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/aboutme.css");
+@import url("styles/skills.css");
+@import url("styles/projects.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;400&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --background-color: #FFFFFF;
+    --primary: #7D3C98;
+    --secondary: #D6C2E9;
+    --apoio: #E9D8FD;
+    --acento:  #F5B7B1;
+    --neutro: #F2F3F4;
+    --yellow: #e8940d;
+    --ligth-gray: #E5E5E5;
+    --text-gray:  #4D4D4D;
+
+
+    --main-font: "Poppins", sans-serif;
+    --secondary-font: "Gloria Hallelujah", cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+

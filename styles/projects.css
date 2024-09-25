@@ -1,0 +1,39 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__title {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.projects__list {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1500px;
+    width: 100%;
+    row-gap: 4em;
+}
+
+.projects__container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.projects__image {
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.437);
+    transition: 0.4s;
+}
+
+.projects__image:hover {
+    transform: scale(1.10);
+}

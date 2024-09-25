@@ -1,0 +1,86 @@
+.body {
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 1.5em 3em;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    background-color: var(--background-color);
+    
+}
+
+.scrolled {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    color: var(--yellow);
+}
+
+.menu__button, .menu-list {
+   display: none; 
+}
+
+.options {
+    display: flex;
+    margin-left: auto;
+    margin-right: 2em;
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+
+.options__label {
+    cursor: pointer;
+}
+
+.options__item {
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.options__link:hover {
+    color: var(--primary);
+}
+
+.options__item.item {
+    text-decoration: none;
+    color: black;
+}
+
+.options__item.item:hover {
+    color: var(--primary);
+}
+
+
+.options__link {
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--background-color);
+    padding: 12px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    transition: 0.4s;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.contact:hover {
+    transform: scale(1.1);
+}
