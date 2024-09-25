@@ -27,6 +27,18 @@
     color: var(--primary);
 }
 
+.cursor {
+    border-left: 2px solid #e8940d; /* Cor da barra piscante */
+    animation: blink 0.7s step-end infinite; /* Animação de piscamento */
+    margin-left: 5px;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
 .seemore {
     position: absolute;
     bottom: 5px; 
