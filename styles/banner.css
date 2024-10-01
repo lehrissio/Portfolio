@@ -93,7 +93,10 @@
     .banner {
         height: 85vh;
         display: flex;
+    }
 
+    .seemore {
+        bottom: 5em;
     }
 
     .banner__title {
@@ -115,10 +118,15 @@
         .banner {
             height: 85vh;
         }
-        
+
         .container {
             padding-top: 7em;
         }
+
+        .seemore {
+            bottom: 1.8em;
+        }
+
     }
 
 }
