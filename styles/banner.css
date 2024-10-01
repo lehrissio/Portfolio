@@ -91,7 +91,7 @@
     }
 
     .banner {
-        height: 90vh;
+        height: 85vh;
         display: flex;
 
     }
@@ -112,6 +112,10 @@
 
     @media screen and (min-width: 751px) {
 
+        .banner {
+            height: 85vh;
+        }
+        
         .container {
             padding-top: 7em;
         }
