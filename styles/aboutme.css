@@ -17,8 +17,8 @@
 }
 
 .card__container {
-    flex: 1;
     padding: 0 2.9em;
+    width: 100%;    
 }
 
 .card__container--image {
@@ -45,10 +45,38 @@
 }
 
 .card__text {
+    position-try: relative;
     font-size: 1.1em;
     line-height: 1.6em;
     color: var(--text-gray); 
     text-align: justify;
+}
+
+.download {
+    display: inline-block; 
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    padding: 1em;
+    margin: 1em 0;
+    max-width: 100%; 
+    background-color: var(--primary); 
+    text-align: center;
+    text-decoration: none;
+    color: var(--background-color);
+    background-color: var(--primary);
+    transition: 0.4s;
+    max-width: 100%;
+    box-sizing: border-box;
+    animation: shake 0.5s infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }  
+    25% { transform: translateX(-1px); } 
+    50% { transform: translateX(1px); }  
+    75% { transform: translateX(-1px); } 
+    100% { transform: translateX(0); }   
 }
 
 @media (max-width: 768px) {

@@ -18,7 +18,7 @@
         <ul class="options">
             <input type="checkbox" id="menu-options" class="menu__button">
             <label for="menu-options" class="options__label">
-                <li class="options__item"><a href="#home" class="options__item item">Início</a></li>
+                <li class="options__item"><a href="#home" class="options__link">Início</a></li>
             </label>  
             
             <ul class="menu-list">
@@ -34,7 +34,7 @@
             <li class="options__item"><a href="#projects" class="options__link">Projetos</a></li>
         </ul>
 
-        <a href="" class="contact">Entre em contato</a>
+        <a href="#contact" class="contact">Entre em contato</a>
     </header>
 
     <section id="home" class="container banner">
@@ -66,6 +66,7 @@
                 <p class="card__text">
                     Olá! Meu nome é Leticia Rissio, e sou estudante de <strong>Engenharia de Software</strong> na faculdade Unicesumar. Adoro aprender tecnologias novas e colocar meus conhecimentos em prática em projetos. Atualmente, estou à procura de um estágio na área.
                 </p>
+                <a href="#" class="download">Download CV</a>
             </div>
         </div>
     </section>
@@ -75,23 +76,35 @@
 
         <ul class="projects__list">
             <li class="projects__container projects__container--image">
-                <img class="projects__image" src="assets/mockup.jpg" alt="">
+                <a href="https://alura-plus-ashy-three.vercel.app/" target="_blank">
+                    <img class="projects__image" src="assets/mockup.jpg" alt="">
+                </a>
+
             </li>
 
             <li class="projects__container projects__container--image">
-                <img class="projects__image" src="assets/mockup1.jpg" alt="">
+                <a href="https://alura-books-six-nu.vercel.app/" target="_blank">
+                    <img class="projects__image" src="assets/mockup1.jpg" alt="">
+                </a>
             </li>
 
             <li class="projects__container projects__container--image">
-                <img class="projects__image" src="assets/mockup2.jpg" alt="">
+                <a href="https://7daysofcode-optimustech.vercel.app/" target="_blank">
+                    <img class="projects__image" src="assets/mockup2.jpg" alt="">
+                </a>
             </li>
 
             <li class="projects__container projects__container--image">
-                <img class="projects__image" src="assets/mockup3.jpg" alt="">
+                <a href="https://7daysofcode-responsividade-seven.vercel.app/" target="_blank">
+                    <img class="projects__image" src="assets/mockup3.jpg" alt="">
+                </a>
+                
             </li>
 
             <li class="projects__container projects__container--image">
-                <img class="projects__image" src="assets/mockup4.jpg" alt="">
+                <a href="https://portifolio-alura-ten-eosin.vercel.app/" target="_blank">
+                    <img class="projects__image" src="assets/mockup4.jpg" alt="">
+                </a>
             </li>
 
         </ul>
@@ -99,8 +112,6 @@
     </section>
 
     <section id="skills" class="container skills">
-        <h2 class="skills__title">SKILLS</h2>
-
         <ul class="skills__list">
             <li class="skills__container skills__container--image">
                 <img class="skills__image" src="assets/html.png" alt="">
@@ -125,5 +136,33 @@
         </ul>
 
     </section>
+
+    <section id="contact" class="container contactme">
+        <div class="card card__contact">
+            <div class="card__container card__container--image">
+                <img class="card__image" src="assets/banner3.png" alt="">
+            </div>
+    
+            <div class="card__container card__container--text card__contact--text">
+                <h2 class="card__title card__contact--title">CONTATO</h2>
+                <p class="card__text">
+                    Entre em contato comigo!
+                </p>
+                <a href="https://wa.me/+55019983913471" class="contact__icon" target="_blank"><img class="contact__image" src="assets/whatsapp.png" alt="" >(19) 98391-3471</a>
+                <a href="mailto:lehrissio@gmail.com" class="contact__icon" target="_blank"><img class="contact__image" src="assets/gmail.png" alt="">lehrissio@gmail.com</a>
+                <a href="https://www.linkedin.com/in/lehrissio/" class="contact__icon" target="_blank"><img class="contact__image" src="assets/linkedin.png" alt="">LinkedIn</a>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="container footer">
+        <div class="logo logo__footer">
+            <h3 class="logo-title logo-title__footer">
+                leticia
+            </h3>
+        </div>
+    </footer>
 </body>
 </html>

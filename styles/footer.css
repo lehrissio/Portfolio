@@ -1,0 +1,18 @@
+.footer {
+    background-color: var(--neutro);
+    height: 100%;
+    grid-template-columns: 100%;
+    text-align: center;
+    padding: 3em 0 ;
+    margin: 8em 0 0 0;
+}
+
+.logo__footer h1 {
+    display: flex;
+    text-align: center;
+}
+
+.logo-title__footer h1 {
+    display: inline-block;
+    text-align: center;
+}

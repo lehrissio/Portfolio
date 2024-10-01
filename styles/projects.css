@@ -1,6 +1,7 @@
 .projects {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .projects__title {
@@ -8,10 +9,13 @@
     font-weight: 700;
     font-size: 2em;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .projects__list {
+    padding: 4em 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     display: grid;
     grid-template-columns: 32% 32% 32%;
     align-items: center;

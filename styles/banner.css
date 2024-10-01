@@ -17,6 +17,16 @@
 
 .banner__image {
     width: 70%;
+    animation: girar 25s linear infinite;
+}
+
+@keyframes girar {
+    0%, 100% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(10deg); /* Aumenta ligeiramente e faz uma pequena rotação */
+    }
 }
 
 .banner__title {
@@ -51,7 +61,7 @@
     cursor: pointer;
     text-decoration: none;
     transition: transform 0.3s ease, font-size 0.3s ease;
-    
+    animation: aumentarDiminuir 3s infinite; 
 }
 
 .arrow {
@@ -62,6 +72,14 @@
     color: black;
 }
 
-.seemore:hover {
-    transform:  translateX(-50%) scale(1.15);
+@keyframes aumentarDiminuir {
+    0% {
+        transform: translateX(-50%) scale(1); 
+    }
+    50% {
+        transform: translateX(-50%) scale(1.12); 
+    }
+    100% {
+        transform: translateX(-50%) scale(1); 
+    }
 }

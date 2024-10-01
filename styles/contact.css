@@ -1,0 +1,46 @@
+.contactme {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__contact {
+    transition: 0.4s;
+    
+}
+
+.card__contact:hover {
+    transform: scale(1.1);
+}
+
+.contact__icon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+    text-decoration: none;
+    color: var(--text-gray);
+    transition: 0.2s;
+}
+
+.contact__icon:hover {
+    color: var(--primary);
+    transform: scale(1.1);
+}
+
+.contact__image {
+    width: 6%;
+}
+
+.card__contact--title {
+    margin: 0;
+    padding: 0 0 0.5em 0;
+}
+
+.card__contact--text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
