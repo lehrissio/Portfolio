@@ -9,32 +9,42 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo">
-            <h1 class="logo-title">
-                leticia
-            </h1>
-        </div>
 
-        <ul class="options">
-            <input type="checkbox" id="menu-options" class="menu__button">
-            <label for="menu-options" class="options__label">
-                <li class="options__item"><a href="#home" class="options__link">Início</a></li>
-            </label>  
+        <div>
+            <input type="checkbox" id="menu" class="container__button">
+            <label for="menu" class="container__label">
+                <span class="header__menu-hamburguer container__image"></span>
+            </label>
             
             <ul class="menu-list">
                 <li class="menu-list__item">
-                    <a href="#" class="menu-list__link">Sobre mim</a>
+                    <a href="#aboutme" class="menu-list__link">Sobre mim</a>
                 </li>
                 <li class="menu-list__item">
-                    <a href="#" class="menu-list__link">Projetos</a>
+                    <a href="#projects" class="menu-list__link">Projetos</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#contact" class="menu-list__link">Contato</a>
                 </li>
             </ul>
+        </div>
 
+        <div class="logo">
+            <h1 class="logo-title">
+                <a href="#home" class="logo-title__link">leticia</a>
+            </h1>
+        </div>
+        
+        <ul class="options">
+
+            <li class="options__item"><a href="#home" class="options__link">Início</a></li>
             <li class="options__item"><a href="#aboutme" class="options__link">Sobre mim</a></li>
             <li class="options__item"><a href="#projects" class="options__link">Projetos</a></li>
+
         </ul>
 
         <a href="#contact" class="contact">Entre em contato</a>
+
     </header>
 
     <section id="home" class="container banner">

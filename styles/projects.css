@@ -41,3 +41,31 @@
 .projects__image:hover {
     transform: scale(1.10);
 }
+
+@media screen and (max-width: 750px) {
+
+    .projects__list {
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+        padding-bottom: 0;
+
+    }
+
+    .projects__image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+
+    @media screen and (min-width: 751px) {
+
+        .projects__list {
+            grid-template-columns: 50% 50%;
+        }
+
+    }
+
+}
