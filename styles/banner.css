@@ -110,21 +110,56 @@
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-height: 600px) {
 
-
-    @media screen and (min-width: 751px) {
+    @media screen and (max-width: 1024px) {
+        .container {
+            padding-top: 4em;
+            height: 100%;
+        }
 
         .banner {
             height: 85vh;
-        }
-
-        .container {
-            padding-top: 7em;
+            display: flex;
         }
 
         .seemore {
-            bottom: 1.8em;
+            bottom: 1em;
+        }
+
+        .banner__title {
+            margin: 0;
+            width: 100%;
+
+        }
+
+        .banner__image {
+            display: none;
+        }
+
+    }
+
+}
+
+@media screen and (min-height: 500px) {
+
+    @media screen and (max-width: 1024px) {
+
+
+        @media screen and (min-width: 751px) {
+
+            .banner {
+                height: 85vh;
+            }
+
+            .container {
+                padding-top: 7em;
+            }
+
+            .seemore {
+                bottom: 1.8em;
+            }
+
         }
 
     }

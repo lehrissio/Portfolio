@@ -134,3 +134,53 @@
         color: black;
     }
 }
+
+
+@media screen and (max-height: 600px) {
+
+    @media screen and (max-width: 900px) {
+
+        .header {
+            padding: 0.5em 1em 0.5em 0.4em;
+        }
+    
+        .options, .contact {
+            display: none;
+        }
+        
+        .header__menu-hamburguer {
+            display: block;
+        }
+    
+        .container__button:checked~.menu-list {
+            display: block;
+        }
+    
+        .container__button:checked~.container__label> .header__menu-hamburguer {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px 10px 0 0;
+            background-color: var(--ligth-gray);
+        }
+    
+        .menu-list {
+            display: none;
+            position: absolute;
+            top: 100%;
+            width: 50vw;
+            z-index: 10;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            background-color: var(--ligth-gray);
+            border-radius: 0 10px 10px 10px;
+            transform: translateY(-10%)
+        }
+    
+        .menu-list__item {
+            padding: 1em;
+        }
+    
+        .menu-list__link {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
