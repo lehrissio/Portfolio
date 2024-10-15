@@ -16,6 +16,7 @@
 ## 🚀 Tecnologias
 * HTML e CSS
 * Java Script
+* CSS animations
   
 <br>
 
