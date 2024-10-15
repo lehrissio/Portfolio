@@ -1,6 +1,6 @@
 <h1 align="center">Portfólio</h1>
 
-<p align="center"> Apresento o projeto do meu portfólio, onde você poderá ver meus recentes projetos ou entrar em contato comigo! 💻🌍 </p>
+<p align="center"> Apresento o meu portfólio, onde você poderá ver meus recentes projetos ou entrar em contato comigo! 💻🌍 </p>
 
 <br>
 <br>
