@@ -1,6 +1,6 @@
 <h1 align="center">Portfólio</h1>
 
-<p align="center"> Seja bem-vindo ao meu portfólio, onde você poderá ver meus recentes projetos ou entrar em contato comigo! 💻🌍 </p>
+<p align="center"> Apresento o projeto do meu portfólio, onde você poderá ver meus recentes projetos ou entrar em contato comigo! 💻🌍 </p>
 
 <br>
 <br>
@@ -45,6 +45,6 @@ Visite o [projeto](portifolio-tau-pearl.vercel.app) online.
 Feito com muito ♥
 
 Obrigado por visitar meu Github ♥
-Me dê um "FOLLOW" que retribuo, vamos criar novas conexões 😊
+Me dê um "FOLLOW" que retribuo 😊
 
 Até a próxima! 👋😊
