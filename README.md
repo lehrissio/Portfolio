@@ -7,7 +7,7 @@
 
 <div align="center">
   <a target="_blank" href="portifolio-tau-pearl.vercel.app">
-    <img src="https://github.com/user-attachments/assets/d1b6055d-bbce-4b95-804b-badbf212d6e0">
+    <img src="https://github.com/user-attachments/assets/878a356d-2d07-4e26-a0bc-935a299d9700">
   </a>
 </div>
 
